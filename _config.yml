@@ -81,7 +81,9 @@ og_image                 : # Open Graph/Twitter default site image
 social:
   type                   : # Person or Organization (defaults to Person)
   name                   : # If the user or organization name differs from the site's name
-  links: # An array of links to social media profiles
+  links: 
+    - "https://linkedin.com/in/jeremylu43"
+    - "https://github.com/jeremylu43"
 
 # Analytics
 analytics:
@@ -94,17 +96,17 @@ analytics:
 # Site Author
 author:
   name             : "Jeremy Lu"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "images/website-profile.jpg"
   bio              : "Aspiring data scientist"
   location         : "Seattle, WA"
   email            :
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: mailto:your.name@email.com
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
+      url: mailto:jeremylu43@hmail.com
+    - label: "Linkedin"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https:linkedin.com/in/jeremylu43"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/"
