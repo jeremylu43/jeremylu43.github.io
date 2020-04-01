@@ -1,10 +1,10 @@
+---
 layout: archive
 permalink: /my-work/
 title: "My Work"
 author-profile: true
 ---
 
-{% include base_path %}
 {% include group-by-array collection=site.posts field="tags" %}
 
 {% for tag in group_names %}
