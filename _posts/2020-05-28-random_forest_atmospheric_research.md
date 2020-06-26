@@ -13,7 +13,7 @@ Technically, I was introduced to working on Jupyter Notebooks, and using the Sci
 Attached below is both the poster created and an audio recording about our project.
 </p>
 
-<object data="/images/SymposiumPoster.pdf" type="application/pdf" width="700px" height="300px">
+<object data="/images/SymposiumPoster.pdf" type="application/pdf" width="700px" height="500px">
     <embed src="/images/SymposiumPoster.pdf">
         <p>This browser does not support PDFs. Please download the PDF to view it: <a href="http://yoursite.com/the.pdf">Download PDF</a>.</p>
     </embed>
