@@ -7,7 +7,7 @@ mathjax: "true"
 ---
 <p>
 Created a poster for my work as a research assistant with the UW Atmoshperic Sciences Department, for a virtual symposium.
-Our team analyzed SOCRATES cloud data and used it in order . I learned the techniques of data management, organization, along with implementing and evaluating random forest models.
+Our team analyzed SOCRATES cloud data and implemented a random forest, which would determine cloud particle phase (liquid or ice). I learned the techniques of data management, organization, along with implementing and evaluating random forest models.
 Technically, I was introduced to working on Jupyter Notebooks, and using the SciKit-Learn packages.
 
 Attached below is both the poster created and an audio recording about our project.
