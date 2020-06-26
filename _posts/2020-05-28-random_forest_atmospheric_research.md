@@ -6,4 +6,8 @@ excerpt: "May 26 2020: Poster made for as a undergraduate research assitant with
 mathjax: "true"
 ---
 
-filler
+<object data="/images/SymposiumPoster.pdf" type="application/pdf" width="700px" height="700px">
+    <embed src="/images/SymposiumPoster.pdf">
+        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="http://yoursite.com/the.pdf">Download PDF</a>.</p>
+    </embed>
+</object>
