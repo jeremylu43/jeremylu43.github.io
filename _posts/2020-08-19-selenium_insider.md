@@ -13,7 +13,7 @@ The output is in CSV form. Hoping for some future projects involving stock price
 
 <p>
 Example of transactions from EDGAR (Agilent Technologies, Inc.):
-<img src="/images/EDGAR_shot.jpg" "Example Transaction Table">
+<img src="/images/EDGAR_shot.jpg" alt="Example Transaction Table">
 </p>
 
 <p>
