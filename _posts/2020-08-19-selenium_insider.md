@@ -1,6 +1,7 @@
 ---
 title: "Web Scraping EDGAR Insider Trading with Python's Selenium"
 date: 2020-08-19
+tags: [Web Scraping, Selenium, Python, Pandas]
 excerpt: "August 19 2020: Python Script for collecting Insider Trading transactions by company"
 mathjax: "true"
 ---
