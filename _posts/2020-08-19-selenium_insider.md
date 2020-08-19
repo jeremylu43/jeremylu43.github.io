@@ -13,9 +13,9 @@ The output is in CSV form. Hoping for some future projects involving stock price
 
 <p>
 Example of transactions from EDGAR (Agilent Technologies, Inc.):
-![Transaciton table](./images/EDGAR_shot.jpg)
+<img src="./images/EDGAR_shot.jpg" "Example Transaction Table">
 </p>
 
 <p>
-Github repository and script can be found [here](https://github.com/jeremylu43/Insider_WebScraping)
+Github repository and script can be found <a href="https://github.com/jeremylu43/Insider_WebScraping">here</a>
 </p>
