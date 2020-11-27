@@ -10,7 +10,7 @@ A two week homework assignment for University of Washington course MATH 381. Usi
 of the 2018-2019 NBA Regular Season using a slight alteration of Pythagorean Wins.
 </p>
 
-<object data="/images/MATH381 - HW6.pdf" type="application/pdf" width="300%" height="200px">
+<object data="/images/MATH381 - HW6.pdf" type="application/pdf" width="300%" height="100%">
     <embed src="/images/MATH381 - HW6.pdf">
         <p>This browser does not support PDFs. Please download the PDF to view it: <a href="http://yoursite.com/the.pdf">Download PDF</a>.</p>
     </embed>
