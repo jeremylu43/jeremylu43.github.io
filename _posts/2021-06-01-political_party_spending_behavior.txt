@@ -10,8 +10,8 @@ Final project for University of Washington course STAT 403, Introduction to Resa
 Using data collected by the Federal Election Commission (FEC), my group took a look at the similarities and difference in overall and specific spending habits between the Republican and Democratic party candidates for the 2022 cycle. The techniques in this project are mainly empirical bootstrap, resampling, and permutation tests, and the code used was in R.
 </p>
 
-<object data="/images/AMATH383 -Final Paper.pdf" type="application/pdf" width="300%" height="400%">
-    <embed src="/images/MATH381 - HW6.pdf">
+<object data="/images/STAT 403 - Final Paper.pdf" type="application/pdf" width="300%" height="400%">
+    <embed src="/images/STAT 403 - Final Paper.pdf">
         <p>This browser does not support PDFs. Please download the PDF to view it: <a href="http://yoursite.com/the.pdf">Download PDF</a>.</p>
     </embed>
 </object>
