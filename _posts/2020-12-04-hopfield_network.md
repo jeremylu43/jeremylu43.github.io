@@ -11,8 +11,8 @@ Taking an in depth look at the Hopfield Network popularized by J.J. Hopfield in 
 as well as its biological foundations and its applications.
 </p>
 
-<object data="/images/AMATH383 -Final Paper.pdf" type="application/pdf" width="300%" height="400%">
-    <embed src="/images/MATH381 - HW6.pdf">
+<object data="/images/STAT 403 - Final Paper.pdf" type="application/pdf" width="300%" height="400%">
+    <embed src="/images/STAT 403 - Final Paper.pdf">
         <p>This browser does not support PDFs. Please download the PDF to view it: <a href="http://yoursite.com/the.pdf">Download PDF</a>.</p>
     </embed>
 </object>
