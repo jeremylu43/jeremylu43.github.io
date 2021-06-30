@@ -1,0 +1,15 @@
+---
+title: "Open vs. Contested 3Pt Shooting in the 2020-2021 NBA Regular Season"
+date: 2021-06-01
+tags: [Bootstrap, Resampling, Data Analysis, RStudio]
+excerpt: "June 30 2021: Comparing Open vs. Contested 3Pt Shooting of 28 qualifying NBA players"
+mathjax: "true"
+---
+<p>
+Test
+</p>
+<iframe src="images/contested_shooting_scatter.html" height="400%" width="300%" title="Interactive Scatter Plot"></iframe>
+
+<p>
+Some text after
+</p>
