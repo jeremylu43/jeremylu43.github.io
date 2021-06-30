@@ -8,7 +8,7 @@ mathjax: "true"
 <p>
 Test
 </p>
-<iframe src="images/contested_shooting_scatter.html" height="400%" width="300%" title="Interactive Scatter Plot"></iframe>
+<iframe src="/images/contested_shooting_scatter.html" height="400%" width="300%" title="Interactive Scatter Plot"></iframe>
 
 <p>
 Some text after
