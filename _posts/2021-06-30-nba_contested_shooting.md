@@ -18,27 +18,27 @@ by a hand in their face.
 
 # Data and Methodology
 
-<p>
-All data was collected from NBA.com, using the ** nba_api ** package in Python. Filtering through all qualifying player id's,
-I was able to access their individual statistics, tracking very open, open, tight, and very tight three point attempts and makes.
 
-For those unfamiliar, NBA.com classifies shots based on the distance of the closest defender:
+All data was collected from NBA.com, using the ** nba_api ** package in Python. Filtering through all qualifying player id's,
+I was able to access their individual statistics, tracking very open, open, tight, and very tight three point attempts and makes.  <br />
+
+For those unfamiliar, NBA.com classifies shots based on the distance of the closest defender:  <br />
 
 * Very Open - 6+ Feet
 * Open - 4-6 Feet
 * Tight - 2-4 Feet
 * Very Tight - 0-2 Feet
 
-For simplicity, "Very Open" and "Open" were considered as open, and "Tight" and "Very Tight" were considered as contested.
+For simplicity, "Very Open" and "Open" were considered as open, and "Tight" and "Very Tight" were considered as contested.  <br />
 
 Using plot.ly, I created a simple interactive scatterplot. The headshots were collected from [nba-players.herokuapp.com](https://nba-players.herokuapp.com/), 
 with the exception of several players who entered the league after the 2017-18 season (manual collection was used for those players).
-You can hover over the players to see the exact shooting percentages, as well as total attempts and makes.
+You can hover over the players to see the exact shooting percentages, as well as total attempts and makes.  <br />
 
 Then, using matplotlib, I created another visualization, directly comparing open and contested three point percentage for each of the 28 players.
 This graph provides a more direct comparison of individual shooting percentages, rather than an overall comparison to the rest of the league.
 
-</p>
+
 
 # Figures
 
