@@ -13,7 +13,7 @@ In recent years, three point shooting has become an increasingly valued skill, a
 Three point attempts are becoming more frequent, and the skill of individual shooters has also increased. 
 Among 28 qualifying players (minimum 70% of the season played, and 1 contested three point attempt per game),  
 </p>
-<iframe src="/images/contested_shooting_scatter.html" width="100%" title="Interactive Scatter Plot" id="Iframe"></iframe>
+<iframe src="/images/contested_shooting_scatter.html" title="Interactive Scatter Plot" id="Iframe"></iframe>
 
 
 
@@ -32,13 +32,13 @@ Some text after
           // set the height of the iframe as 
           // the height of the iframe content
           frame.style.height = 
-          frame.contentWindow.document.body.scrollHeight + 'px';
+          frame.contentWindow.document.body.scrollHeight/2 + 'px';
            
   
          // set the width of the iframe as the 
          // width of the iframe content
          frame.style.width  = 
-          frame.contentWindow.document.body.scrollWidth+'px';
+          frame.contentWindow.document.body.scrollWidth/2+'px';
               
         }
 </script>
