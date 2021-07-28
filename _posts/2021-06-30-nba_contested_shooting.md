@@ -31,11 +31,11 @@ For those unfamiliar, NBA.com classifies shots based on the distance of the clos
 
 For simplicity, "Very Open" and "Open" were considered as open, and "Tight" and "Very Tight" were considered as contested.  <br />
 
-Using plot.ly, I created a simple interactive scatterplot. The headshots were collected from [nba-players.herokuapp.com](https://nba-players.herokuapp.com/), 
+Using **plotly** for Python, I created a simple interactive scatterplot. The headshots were collected from [nba-players.herokuapp.com](https://nba-players.herokuapp.com/), 
 with the exception of several players who entered the league after the 2017-18 season (manual collection was used for those players).
 You can hover over the players to see the exact shooting percentages, as well as total attempts and makes.  <br />
 
-Then, using matplotlib, I created another visualization, directly comparing open and contested three point percentage for each of the 28 players.
+Then, using **matplotlib**, I created another visualization, directly comparing open and contested three point percentage for each of the 28 players.
 This graph provides a more direct comparison of individual shooting percentages, rather than an overall comparison to the rest of the league.
 
 
