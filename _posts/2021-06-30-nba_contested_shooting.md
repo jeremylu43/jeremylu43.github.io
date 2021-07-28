@@ -32,13 +32,13 @@ Some text after
           // set the height of the iframe as 
           // the height of the iframe content
           frame.style.height = 
-          frame.contentWindow.document.body.scrollHeight/2 + 'px';
+          frame.contentWindow.document.body.scrollHeight + 'px';
            
   
          // set the width of the iframe as the 
          // width of the iframe content
          frame.style.width  = 
-          frame.contentWindow.document.body.scrollWidth/2+'px';
+          frame.contentWindow.document.body.scrollWidth + 'px';
               
         }
 </script>
