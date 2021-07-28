@@ -1,14 +1,16 @@
 ---
 title: "Open vs. Contested 3Pt Shooting in the 2020-2021 NBA Regular Season"
-date: 2021-06-01
+date: 2021-06-30
 tags: [Bootstrap, Resampling, Data Analysis, RStudio]
 excerpt: "June 30 2021: Comparing Open vs. Contested 3Pt Shooting of 28 qualifying NBA players"
 mathjax: "true"
 ---
 <p>
-Test
+In recent years, three point shooting has become an increasingly valued skill, as NBA players and teams have learned to unlock its full potential. 
+Three point attempts are becoming more frequent, and the skill of individual shooters has also increased. 
+Among 28 qualifying players (minimum 70% of the season played, and 1 contested three point attempt per game),  
 </p>
-<iframe src="/images/contested_shooting_scatter.html" height="400%" width="300%" title="Interactive Scatter Plot"></iframe>
+<iframe src="/images/contested_shooting_scatter.html" height="500%" width="100%" title="Interactive Scatter Plot"></iframe>
 
 <p>
 Some text after
