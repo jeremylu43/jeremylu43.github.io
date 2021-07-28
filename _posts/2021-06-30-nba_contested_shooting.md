@@ -19,7 +19,7 @@ by a hand in their face.
 # Data and Methodology
 
 
-All data was collected from NBA.com, using the ** nba_api ** package in Python. Filtering through all qualifying player id's,
+All data was collected from NBA.com, using the **nba_api** package in Python. Filtering through all qualifying player id's,
 I was able to access their individual statistics, tracking very open, open, tight, and very tight three point attempts and makes.  <br />
 
 For those unfamiliar, NBA.com classifies shots based on the distance of the closest defender:  <br />
@@ -66,4 +66,4 @@ This graph provides a more direct comparison of individual shooting percentages,
         }
 </script>
 
-<img src="/images/contested_shooting.jpg" alt="Contested Shooting Visualization">
+<img src="/images/contested_shooting.png" alt="Contested Shooting Visualization">
