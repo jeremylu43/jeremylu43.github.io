@@ -16,8 +16,8 @@ Final paper for NYU Natural Language Programming Course taught by Adam Meyers.
 
 </p>
 
-<object data="/images/Jeremy Lu NLP Paper.pdf" type="application/pdf" width="300%" height="400%">
-    <embed src="/images/Jeremy Lu NLP Paper.pdf">
+<object data="/images/JeremyLuNLPPaper.pdf" type="application/pdf" width="300%" height="400%">
+    <embed src="/images/JeremyLuNLPPaper.pdf">
         <p>This browser does not support PDFs. Please download the PDF to view it: <a href="http://yoursite.com/the.pdf">Download PDF</a>.</p>
     </embed>
 </object>
