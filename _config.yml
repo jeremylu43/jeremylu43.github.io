@@ -119,6 +119,9 @@ author:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
+    - label: "Resume"
+      icon: "fa-solid fa-file"
+      url: "images/resume.pdf"
 
 # Site Footer
 footer:
@@ -141,7 +144,8 @@ footer:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url:
-
+    - label: "Resume"
+        icon: "fa-solid fa-file"
 
 # Reading Files
 include:
