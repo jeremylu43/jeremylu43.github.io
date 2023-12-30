@@ -10,4 +10,4 @@ I attended obtained an MS in applied statistics for social science research from
 Outside of work, I am an **avid sports fan**, specifically the NBA and NFL; and I have a YouTube channel [Hoodfav Hoops](https://www.youtube.com/channel/UClUwbRtQPu_rOAwgNdcZpFw), where I do **player breakdowns** and analysis using game film and data. 
 I also attend [The Table Church](https://www.tablechurch.nyc/) in Chinatown, where I am focused on planning **community building events**.
 
-If you would like to chat, feel free to email me :) You can also find my resume [here.](https://www.jeremylu43.github.io/images/resume.pdf)
+If you would like to chat, feel free to email me :) You can also find my resume [here.](https://jeremylu43.github.io/images/resume.pdf)
