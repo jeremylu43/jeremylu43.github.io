@@ -4,10 +4,8 @@ permalink: "/about/"
 ---
 Hi, I'm Jeremy.
 
-I'm a second year graduate student at **New York University** studying **Applied Statistics for Social Science Research**, currently looking for
-full time opportunities as a data analyst/scientist/researcher after graduating in MAy 2023. I did my undergraduate studies at the **University of Washington** (UW), earning a Bachelor's of Science Degree in **Applied and Computational Mathmatical Sciences**, with a **Data Science** option.
+I'm a data analyst on the [Rapid Randomized Control Trial (RCT) Lab](https://med.nyu.edu/centers-programs/healthcare-innovation-delivery-science/delivery-system-redesign/rapid-randomized-controlled-trial-lab) team at NYU Langone Health. We focus on designing and implementing RCTs to test changes in our healthcare system and improve our practices.
+I attended obtained an MS in applied statistics for social science research from New York University and a BS in applied and computational mathematical sciences from the University of Washington in Seattle.
 
-I have an interest in **problem solving**, mainly involving data and its applications in sports, particularly basketball, football, and soccer. I have experience as an **AI Research Intern** with Aizip, Inc., a startup specializing in TinyML and AIoT.
-Additionally, I was a **research assistant** for the UW Atmospheric Sciences Department involved with binary classification of ice probe data. Finally, I run the YouTube channel **Hoodfav Hoops**, where I do player breakdowns and analysis using game film and data.
-
-Outside of the classroom, I enjoy playing **basketball**, **cooking**, and listening to **music**. If you ever have questions or would like to chat just email me :)
+Outside of work, I am a passionate follower of the NBA and NFL, and I have a YouTube channel [Hoodfav Hoops] (https://www.youtube.com/channel/UClUwbRtQPu_rOAwgNdcZpFw), where I do player breakdowns and analysis using game film and data. 
+I also attend [The Table Church](https://www.tablechurch.nyc/) in Chinatown, where I am focused on planning community building events.
