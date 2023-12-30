@@ -145,7 +145,7 @@ footer:
       icon: "fab fa-fw fa-instagram"
       # url:
     - label: "Resume"
-        icon: "fab fa-solid fa-file"
+      icon: "fab fa-solid fa-file"
 
 # Reading Files
 include:
