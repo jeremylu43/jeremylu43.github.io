@@ -1,5 +1,5 @@
 ---
-title: "Feature Analysis for Predicate Argument Identification using Random Forests"
+title: "New NBA lineup scraper accounts for restrictions such as player inclusions, player exclusions, team, and minimum minutes played (per lineup)"
 date: 2024-02-01
 tags: [Web Scraping, NBA, basketball]
 excerpt: "February 1 2024: New NBA lineup scraper accounts for restrictions such as player inclusions, player exclusions, team, and minimum minutes played (per lineup)."
