@@ -5,7 +5,7 @@ tags: [Random Forest, Binary Classification, NLP, Word Embedding]
 excerpt: "January 10 2023: Feature Analysis for Predicate Argument Identification using Random Forests"
 mathjax: "true"
 ---
-<p>
+
 There are a variety of characteristics used to identify ARG1’s in the predicate-argument relationships, such as N-gram, predicate, path, and embedding features.
 Among these, it is unclear which ones are most important when a machine learning model is identifying ARG1’s. 
     
@@ -13,9 +13,9 @@ This paper utilizes **feature and permutation importance** in a **binary classif
 impacts. The most important features in the random forest were **distance of word to predicate**, **word to predicate embedding distance**, and the **word itself**.
 
 
-Final paper for NYU Natural Language Programming Course taught by Adam Meyers.
+Final paper for NYU Natural Language Programming Course taught by [Adam Meyers](https://nlp.cs.nyu.edu/meyers/).
 
-</p>
+
 
 <object data="/images/nlppaper.pdf" type="application/pdf" width="300%" height="400%">
     <embed src="/images/nlppaper.pdf">
