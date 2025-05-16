@@ -6,7 +6,7 @@ excerpt: "March 27 2025: erverless Web Design for NBA Lineup Performance using A
 mathjax: "true"
 ---
 
-# Introduction 
+## Introduction 
 
 <p>
 Website can be found here <a href="https://nba-lineup-finder.github.io/">here</a>
@@ -21,7 +21,7 @@ project to build out a web version of this script, that could be used by any non
 </p>
 
 
-# App Architecture
+## App Architecture
 
 <p>
 Before I begin talking about my process and people realize I'm completely fraudulent, my disclaimer is that I've never built a fully functional website before.
@@ -49,21 +49,27 @@ I know this isn't the most elegant solution, but it's free and it still works.
 <p>
 For frontend, I've had good experiences using Github Pages (which this blog is on obviously) so I just stuck with what I was familiar with. All in all, the app
 is designed as such:
-
-### Frontend:
-* Github Pages
-* Runs on some combination of HTML and JS
-
-### Backend:
-* Amazon S3 - to store 5 man lineup data
-* `get_nba_lineups` - Lambda function which queries my S3 data to give lineup performance results
-* `get_team_players` - Lambda function which makes API call to pbpstats.com for all players on a team in the 2024-25 season.
-* `get_nba_teams` - Lambda function which makes API call to balldontlie.io to get all the teams in the NBA.
 </p>
 
-# Vibe Building
+<p>
+**Frontend:**
 
-# Conclusion
+- Github Pages
+- Runs on some combination of HTML and JS
+</p>
+
+<p>
+**Backend:**
+
+- Amazon S3 - to store 5 man lineup data
+- `get_nba_lineups` - Lambda function which queries my S3 data to give lineup performance results
+- `get_team_players` - Lambda function which makes API call to pbpstats.com for all players on a team in the 2024-25 season.
+- `get_nba_teams` - Lambda function which makes API call to balldontlie.io to get all the teams in the NBA.
+</p>
+
+## Vibe Building
+
+## Conclusion
 
 <p>
 Github repository and script can be found <a href="https://github.com/jeremylu43/Insider_WebScraping">here</a>
