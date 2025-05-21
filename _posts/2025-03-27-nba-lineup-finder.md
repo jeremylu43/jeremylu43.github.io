@@ -1,8 +1,8 @@
 ---
 title: "Serverless Web Design for NBA Lineup Performance using AWS"
 date: 2025-03-27
-tags: [Web Scraping, Selenium, Python, Pandas]
-excerpt: "March 27 2025: erverless Web Design for NBA Lineup Performance using AWS"
+tags: [NBA, Web Design, AWS, Serverless, AWS Lambda, ChatGPT, LLM, HTML, JavsScript]
+excerpt: "March 27 2025: Serverless Web Design for NBA Lineup Performance using AWS"
 mathjax: "true"
 ---
 
@@ -96,6 +96,3 @@ and the speed and ease of vibe building, but you can mitigate this (and are almo
 tl;dr: I used ChatGPT and AWS Lambda to help build a website where you can search for NBA lineup performance data.
 </p>
 
-<p>
-Github repository and script can be found <a href="https://github.com/jeremylu43/Insider_WebScraping">here</a>
-</p>
