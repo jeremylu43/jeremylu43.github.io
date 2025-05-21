@@ -11,7 +11,7 @@ mathjax: "true"
 
 <p>
 <a href="https://jeremylu43.github.io/nba_lineup_scraper/">Previously</a>, I had made a Python script which pulled five man lineup data,
-jereI was studying AWS for the solutions architect certification recently and wanted to implement the skills I had been learning. 
+I was studying AWS for the solutions architect certification recently and wanted to implement the skills I had been learning. 
 with filtering for player inclusion, exclusion, and minimum minutes played. However, it's quite clunky to run and inaccessible to people
 without a myriad of technical skills. Since I already had most of the backend code figured out, it seemed like a straightforward and simple
 project to build out a web version of this script, that could be used by any non-technical user.
