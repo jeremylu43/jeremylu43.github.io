@@ -161,7 +161,7 @@ with open('tension.json', 'w') as fp:
 
 ## Conclusion
 In this Python tutorial, we learned how to send requests to websites, and read the table information stored using `pandas`. We also learned how to store these values in a JSON format, as well as how to write a loop
-to obtain data from multiple pages.
+to obtain data from multiple pages. You can also access my [Excitement](/images/excitement.json) and [Tension](/images/excitement.json) files instead of scraping, to do your own analysis!
 
 **Warning:** Some sites may block you from sending requests entirely or if you send too many. It is best practice to use an API if available (unfortunately I don't know  of one for Inpredictable), or 
 send requests intermittently. To learn about web scraping best practices, check out [some resources](https://www.google.com/search?q=web+scraping+best+practices).
