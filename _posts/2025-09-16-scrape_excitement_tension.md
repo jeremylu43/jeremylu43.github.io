@@ -1,5 +1,5 @@
 ---
-title: "Python tutorial: Web Scraping NBA Regular Season Excitement and Tension"
+title: "Python Tutorial: Web Scraping NBA Regular Season Excitement and Tension"
 date: 2025-09-16
 tags: [NBA, Basketball, Python, Web Scraping]
 excerpt: "September 16 2025: Python tutorial: Web Scraping NBA Regular Season Excitement and Tension"
@@ -61,7 +61,7 @@ tension_values = list(game_table['Tension'].values)
 ```
 The results of this table are displayed:
 
-<img src="/images/single_game_excitement_tension.png" alt="Pandas DataFrame with excitement and tension data for the 12 games on November 1st, 2023">
+![Pandas DataFrame with excitement and tension data for the 12 games on November 1st, 2023](/images/single_game_excitement_tension.png)
 
 ## Scraping Multiple Days
 
