@@ -164,4 +164,4 @@ In this Python tutorial, we learned how to send requests to websites, and read t
 to obtain data from multiple pages.
 
 **Warning:** Some sites may block you from sending requests entirely or if you send too many. It is best practice to use an API if available (unfortunately I don't know  of one for Inpredictable), or 
-send requests intermittently. To learn about web scraping best practices, check out [some resorces](https://www.google.com/search?q=web+scraping+best+practices).
+send requests intermittently. To learn about web scraping best practices, check out [some resources](https://www.google.com/search?q=web+scraping+best+practices).
