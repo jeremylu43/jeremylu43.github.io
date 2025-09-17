@@ -61,7 +61,7 @@ tension_values = list(game_table['Tension'].values)
 ```
 The results of this table are displayed:
 
-![Pandas DataFrame with excitement and tension data for the 12 games on November 1st, 2023](/images/single_game_excitement_tension.png)
+![Pandas DataFrame with excitement and tension data for the 12 games on November 1st, 2023](/images/single_day_excitement_tension.png)
 
 ## Scraping Multiple Days
 
