@@ -18,7 +18,7 @@ This post will detail how I used Python to scrape excitement and tension data fo
 
 First, we can start at the [home page](https://stats.inpredictable.com/nba/topGame.php) for NBA's top games by excitement and tension. 
 
-![Home page of Inpredictable's Top Game Finder, shows a table of 25 games sorted by highest excitement](/images/nba_top_game_finder.png)
+![Home page of Inpredictable's Top Game Finder, shows a table of 25 games sorted by highest excitement](/images/NBA_Excitement/nba_top_game_finder.png)
 
 Looking at this page, there are several key observations:
 
@@ -31,7 +31,7 @@ Based on these observations, if we wanted to get data for every single game, we'
 
 If we hit "Exclude Playoffs" and pick a random date (November 1st, 2023), we end up on [this page](https://stats.inpredictable.com/nba/topGame.php?sort=ei&season=ALL&team=ALL&po=0&frdt=2023-11-01&todt=2023-11-01):
 
-![Excitement and tension data for the 12 games on November 1st, 2023](/images/nba_top_game_finder_date_example.png)
+![Excitement and tension data for the 12 games on November 1st, 2023](/images/NBA_Excitement/nba_top_game_finder_date_example.png)
 
 Two more observations: 
 
@@ -61,7 +61,7 @@ tension_values = list(game_table['Tension'].values)
 ```
 The results of this table are displayed:
 
-![Pandas DataFrame with excitement and tension data for the 12 games on November 1st, 2023](/images/single_day_excitement_tension.png)
+![Pandas DataFrame with excitement and tension data for the 12 games on November 1st, 2023](/images/NBA_Excitement/single_day_excitement_tension.png)
 
 ## Scraping Multiple Days
 
