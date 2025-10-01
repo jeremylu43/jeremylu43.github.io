@@ -51,17 +51,25 @@ We can also quickly look at the relationship between excitement and tension. Plo
 
 <img src="/images/NBA_Excitement/excitement_scatter_top_100.png" alt = "Top 100 games in terms of excitement and tension by season. 2004 has 13/100 top tension games and 2018 has 10/100 top excitement games" width = "1000"/>
 
-Here I've plotted the 100 highest games for both excitement and tension, grouping them by season. There are 2 notable seasons in terms of tension: 1999-2000 and 2004-05. In the
+Here I've plotted the 100 highest games for both excitement and tension, grouping them by season. 
+
+There are 2 notable seasons in terms of tension: 1999-2000 and 2004-05. In the
 a slower paced era, it makes sense that games may be closer, and therefore have higher tension. However, I'm unsure why 2004-05 would stand out with 13 out of the top 100 tension games,
-perhaps just luck (or rather, chance). 2018-19 stands out with 10/100 games with the highest excitement. This was the last year of the Kevin Durant Warriors, and while they were expected
+perhaps just luck (or rather, chance). 
+
+2018-19 stands out with 10/100 games with the highest excitement. This was the last year of the Kevin Durant Warriors, and while they were expected
 to cruise to the finals, teams like the Bucks, Nuggets, and Raptors were emerging. James Harden also went on an incredible tear in January, where he scored 57, 58, and 61 points in the span of 5 games in carry efforts for the Rockets.
 His 36.1 points per game were, unfortunately, were unable to overcome Giannis for MVP, who led his Bucks to the best record in the league at 60-22. Overall, it's hard to come away with any hard conclusions, so let's try expanding to the top 500 games.
 
 <img src="/images/NBA_Excitement/excitement_scatter_top_500.png" alt = "Top 500 games in terms of excitement and tension by season. Tension is higher from 1999-2004 and excitement higher from 2013-2018" width = "1000"/>
 
-Expanding to the top 500 games in terms of excitement and tension seems to reveal some more trends. There is a group of four seasons from 1999-2004 which have at least 30 
+Expanding to the top 500 games in terms of excitement and tension seems to reveal some more trends. 
+
+There is a group of four seasons from 1999-2004 which have at least 30 
 of the top 500 games in terms of tension, each. When teams played slower and the game was still dominated by big men, it makes sense that the score remains close, and the outcome of the game lives more in uncertainty.
-In more recent years, from 2013-2018, there is a group of seasons which seem to peak in terms of games ranking in the top 500 of excitement. During this time, the surge in three pointa
+I
+
+n more recent years, from 2013-2018, there is a group of seasons which seem to peak in terms of games ranking in the top 500 of excitement. During this time, the surge in three pointa
 attempts was spurred by exciting guards like Stephen Curry, Damian Lillard, and James Harden. The difference in tension and excitement over time lines up with how the league has shifted to emphasize three point shooting,
 which causes large, more unpredictble swings in the game. Barrages in scoring can quickly lead to blowouts, decreasing tension within games. On the flip side, the ability to shrink leads
 via transition and three pointers has also added a greater comeback element, which can lead to more exciting games. The quicker pace also results in more back and forth trading in crunch time,
@@ -73,10 +81,13 @@ From this quick look at top regular season games by season, it is tempting to sa
 the high scoring and more fast paced landscape has resulted in more exciting (wilder swings in win probability) games. It is certainly promising that this cursory look at our 
 two metrics seems to reflect the shift in the NBA over time; however, we are currently unable to conclusively claim from that the regular season has gotten more or less exciting.
 
-It's also worth to note that these metrics fail to account for the other many factors which affect our perceptions of the regular season. On a game level, 
-a matchup ranking high in excitement or tension last year between the Trailblazers and Magic (sorry Portland and Orlando fans) might never be watched by the average fan.
+It's also worth to note that these metrics fail to account for the other many factors which affect our perceptions of the regular season. 
+
+On a game level, a matchup ranking high in excitement or tension last year between the Trailblazers and Magic (sorry Portland and Orlando fans) might never be watched by the average fan.
 Fans are much more likely to watch marquee matchups, big market teams, and nationally broadcasted games. If these games are duds, their perception of the regular season would
-be dampered, despite other quality games being played that day. On a more macro level, issues such as parity, load management, and the decline in the TV product of the NBA
+be dampered, despite other quality games being played that day. 
+
+On a more macro level, issues such as parity, load management, and the decline in the TV product of the NBA
 all contribute to negative perceptions of the regular season. The increase in commercials, difficulty of watching games live, officiating problems, and dragged out fourth quarters 
 may all cause fans to view games as "boring", compared to back in the day.
 
@@ -88,6 +99,5 @@ sense that viewers will follow the season more closely when there are no obvious
 during seasons where there is no clear cut contender (although hate watching is a thing nowadays...) I plan to explore this in my next post.
 
 Additionally, I want to take a more rigorous statistical approach to see if excitement and tension has decreased over time. We've only looked at the top games in terms of excitement and tension,
-so there is a lot we don't know about the general distribution of our metrics across seasons. Perhaps us flawed humans do tend to base our perceptions of the regular season on the more memorable games,  
-but analyzing each season as a whole will be more informative in either confirming our belief that excitement and tension have increased and decreased, respectively,
+so there is a lot we don't know about the general distribution of our metrics across seasons. Perhaps us flawed humans do tend to base our perceptions of the regular season on the more memorable games, but analyzing each season as a whole will be more informative in either confirming our belief that excitement and tension have increased and decreased, respectively,
 or reveal more nuance in this take.
