@@ -23,7 +23,7 @@ If the players have gotten better and the level of difficulty has gone up...how 
 
 ## Understanding our Data
 
-For data, I scraped every NBA regular season game (total of 34,303 games across 4,593 days) starting from the 1996-97 season to the 2024-25 season. from the great Michael Beuoy's website [inpredictable](https://www.inpredictable.com/), which has a variety of data publically available.
+For data, I scraped every NBA regular season game (total of 34,303 games across 4,593 days) starting from the 1996-97 season to the 2024-25 season from the great Michael Beuoy's website [inpredictable](https://www.inpredictable.com/), which has a variety of data publically available.
 Two key metrics from this site, **excitement** and **tension**, can be used to measure how engaging an NBA game might be. 
 
 [**Excitement**](https://www.inpredictable.com/2014/05/top-game-finder-for-nba.html) measures how much a win probability graph moves over the course of the game. To understand this better,
@@ -41,14 +41,15 @@ leaving viewers glued to their seats to see which team will come out on top.
  <img src="/images/NBA_Excitement/ClippersTimberwolvesGraph.png" alt="Probablility graph remains stable throughout the game" width="500"/>
 
  This graph below shows the distribution of excitement and tension. Generally, most regular season games in the past have an excitement of around 30, and tension is around 75. Note: excitement is generally stored on a scale of 0-20, but I've transformed it to 0-100, to match tension.
- <img src="/images/NBA_Excitement/excitement_tension_histogram.png" alt="Histogram of excitement and tension" width="500"/>
+ <img src="/images/NBA_Excitement/excitement_tension_histogram.png" alt="Histogram of excitement and tension" width="1000"/>
 
 We can also quickly look at the relationship between excitement and tension. Plotting all the games in our data, we can see that as tension increases (i.e. the game gets closer), so does excitement, which makes sense intuitively.
-<img src="/images/NBA_Excitement/excitement_tension_scatter.png", alt = "Scatterplot of excitement and tension. As tension increases on x axis, excitement increases as well", width = "500"/>
+
+<img src="/images/NBA_Excitement/excitement_tension_scatter.png" alt = "Scatterplot of excitement and tension. As tension increases on x axis, excitement increases as well" width = "1000"/>
 
 ## A Quick Look Comparing Seasons
 
-<img src="/images/NBA_Excitement/excitement_scatter_top_100.png", alt = "Top 100 games in terms of excitement and tension by season. 2004 has 13/100 top tension games and 2018 has 10/100 top excitement games", width = "500"/>
+<img src="/images/NBA_Excitement/excitement_scatter_top_100.png" alt = "Top 100 games in terms of excitement and tension by season. 2004 has 13/100 top tension games and 2018 has 10/100 top excitement games" width = "1000"/>
 
 Here I've plotted the 100 highest games for both excitement and tension, grouping them by season. There are 2 notable seasons in terms of tension: 1999-2000 and 2004-05. In the
 a slower paced era, it makes sense that games may be closer, and therefore have higher tension. However, I'm unsure why 2004-05 would stand out with 13 out of the top 100 tension games,
@@ -56,7 +57,7 @@ perhaps just luck (or rather, chance). 2018-19 stands out with 10/100 games with
 to cruise to the finals, teams like the Bucks, Nuggets, and Raptors were emerging. James Harden also went on an incredible tear in January, where he scored 57, 58, and 61 points in the span of 5 games in carry efforts for the Rockets.
 His 36.1 points per game were, unfortunately, were unable to overcome Giannis for MVP, who led his Bucks to the best record in the league at 60-22. Overall, it's hard to come away with any hard conclusions, so let's try expanding to the top 500 games.
 
-<img src="/images/NBA_Excitement/excitement_scatter_top_500.png", alt = "Top 500 games in terms of excitement and tension by season. Tension is higher from 1999-2004 and excitement higher from 2013-2018", width = "500"/>
+<img src="/images/NBA_Excitement/excitement_scatter_top_500.png" alt = "Top 500 games in terms of excitement and tension by season. Tension is higher from 1999-2004 and excitement higher from 2013-2018" width = "1000"/>
 
 Expanding to the top 500 games in terms of excitement and tension seems to reveal some more trends. There is a group of four seasons from 1999-2004 which have at least 30 
 of the top 500 games in terms of tension, each. When teams played slower and the game was still dominated by big men, it makes sense that the score remains close, and the outcome of the game lives more in uncertainty.
