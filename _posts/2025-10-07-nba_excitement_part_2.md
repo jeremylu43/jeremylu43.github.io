@@ -1,5 +1,5 @@
 ---
-title: "Has the NBA regular season gotten less exciting? A Quantitative Analysis (Part 1)"
+title: "Has the NBA regular season gotten less exciting? Part 2: The impact of parity (or lack thereof)"
 date: 2025-10-07
 tags: [NBA, Basketball, Python, Web Scraping]
 excerpt: "October 07 2025: Has the NBA regular season gotten less exciting? Part 2: The impact of parity (or lack thereof)"
@@ -34,35 +34,35 @@ Using this, we have the Gini's for each season sorted:
 | **Original** |  |  |  |  | **Sorted** |  |  |  |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Season | Best Team | Worst Team | Gini |  | Season | Best Team | Worst Team | Gini |
-| 1996 | Chicago Bulls (69 - 13) | Vancouver Grizzlies (14 - 68) | 0.161 |  | 1996 | Chicago Bulls (69 - 13) | Vancouver Grizzlies (14 - 68) | 0.161 |
-| 1997 | Chicago Bulls (62 - 20) | Denver Nuggets (11 - 71) | 0.153 |  | 1997 | Chicago Bulls (62 - 20) | Denver Nuggets (11 - 71) | 0.153 |
-| 1998 | San Antonio Spurs (37 - 13) | Vancouver Grizzlies (8 - 42) | 0.128 |  | 2008 | Cleveland Cavaliers (66 - 16) | Sacramento Kings (17 - 65) | 0.143 |
-| 1999 | Los Angeles Lakers (67 - 15) | Los Angeles Clippers (15 - 67) | 0.13 |  | 2007 | Boston Celtics (66 - 16) | Miami Heat (15 - 67) | 0.141 |
-| 2000 | San Antonio Spurs (58 - 24) | Chicago Bulls (15 - 67) | 0.132 |  | 2023 | Boston Celtics (64 - 18) | Detroit Pistons (14 - 68) | 0.137 |
-| 2001 | Sacramento Kings (61 - 21) | Golden State Warriors (21 - 61) | 0.111 |  | 2009 | Cleveland Cavaliers (61 - 21) | New Jersey Nets (12 - 70) | 0.137 |
-| 2002 | San Antonio Spurs (60 - 22) | Denver Nuggets (17 - 65) | 0.115 |  | 2019 | Milwaukee Bucks (56 - 17) | Golden State Warriors (15 - 50) | 0.134 |
-| 2003 | Indiana Pacers (61 - 21) | Orlando Magic (21 - 61) | 0.108 |  | 2013 | San Antonio Spurs (62 - 20) | Milwaukee Bucks (15 - 67) | 0.134 |
-| 2004 | Phoenix Suns (62 - 20) | Atlanta Hawks (13 - 69) | 0.124 |  | 2014 | Golden State Warriors (67 - 15) | Minnesota Timberwolves (16 - 66) | 0.133 |
-| 2005 | Detroit Pistons (64 - 18) | Portland Trail Blazers (21 - 61) | 0.106 |  | 2010 | Chicago Bulls (62 - 20) | Minnesota Timberwolves (17 - 65) | 0.132 |
-| 2006 | Dallas Mavericks (67 - 15) | Memphis Grizzlies (22 - 60) | 0.104 |  | 2000 | San Antonio Spurs (58 - 24) | Chicago Bulls (15 - 67) | 0.132 |
-| 2007 | Boston Celtics (66 - 16) | Miami Heat (15 - 67) | 0.141 |  | 2012 | Miami Heat (66 - 16) | Orlando Magic (20 - 62) | 0.13 |
-| 2008 | Cleveland Cavaliers (66 - 16) | Sacramento Kings (17 - 65) | 0.143 |  | 1999 | Los Angeles Lakers (67 - 15) | Los Angeles Clippers (15 - 67) | 0.13 |
-| 2009 | Cleveland Cavaliers (61 - 21) | New Jersey Nets (12 - 70) | 0.137 |  | 2024 | Oklahoma City Thunder (68 - 14) | Utah Jazz (17 - 65) | 0.129 |
-| 2010 | Chicago Bulls (62 - 20) | Minnesota Timberwolves (17 - 65) | 0.132 |  | 1998 | San Antonio Spurs (37 - 13) | Vancouver Grizzlies (8 - 42) | 0.128 |
-| 2011 | Chicago Bulls (50 - 16) | Charlotte Bobcats (7 - 59) | 0.128 |  | 2011 | Chicago Bulls (50 - 16) | Charlotte Bobcats (7 - 59) | 0.128 |
-| 2012 | Miami Heat (66 - 16) | Orlando Magic (20 - 62) | 0.13 |  | 2015 | Golden State Warriors (73 - 9) | Philadelphia 76ers (10 - 72) | 0.127 |
-| 2013 | San Antonio Spurs (62 - 20) | Milwaukee Bucks (15 - 67) | 0.134 |  | 2017 | Houston Rockets (65 - 17) | Phoenix Suns (21 - 61) | 0.126 |
-| 2014 | Golden State Warriors (67 - 15) | Minnesota Timberwolves (16 - 66) | 0.133 |  | 2004 | Phoenix Suns (62 - 20) | Atlanta Hawks (13 - 69) | 0.124 |
-| 2015 | Golden State Warriors (73 - 9) | Philadelphia 76ers (10 - 72) | 0.127 |  | 2018 | Milwaukee Bucks (60 - 22) | New York Knicks (17 - 65) | 0.12 |
-| 2016 | Golden State Warriors (67 - 15) | Brooklyn Nets (20 - 62) | 0.107 |  | 2021 | Phoenix Suns (64 - 18) | Houston Rockets (20 - 62) | 0.119 |
-| 2017 | Houston Rockets (65 - 17) | Phoenix Suns (21 - 61) | 0.126 |  | 2020 | Utah Jazz (52 - 20) | Houston Rockets (17 - 55) | 0.116 |
-| 2018 | Milwaukee Bucks (60 - 22) | New York Knicks (17 - 65) | 0.12 |  | 2002 | San Antonio Spurs (60 - 22) | Denver Nuggets (17 - 65) | 0.115 |
-| 2019 | Milwaukee Bucks (56 - 17) | Golden State Warriors (15 - 50) | 0.134 |  | 2001 | Sacramento Kings (61 - 21) | Golden State Warriors (21 - 61) | 0.111 |
-| 2020 | Utah Jazz (52 - 20) | Houston Rockets (17 - 55) | 0.116 |  | 2003 | Indiana Pacers (61 - 21) | Orlando Magic (21 - 61) | 0.108 |
-| 2021 | Phoenix Suns (64 - 18) | Houston Rockets (20 - 62) | 0.119 |  | 2016 | Golden State Warriors (67 - 15) | Brooklyn Nets (20 - 62) | 0.107 |
-| 2022 | Milwaukee Bucks (58 - 24) | Detroit Pistons (17 - 65) | 0.091 |  | 2005 | Detroit Pistons (64 - 18) | Portland Trail Blazers (21 - 61) | 0.106 |
-| 2023 | Boston Celtics (64 - 18) | Detroit Pistons (14 - 68) | 0.137 |  | 2006 | Dallas Mavericks (67 - 15) | Memphis Grizzlies (22 - 60) | 0.104 |
-| 2024 | Oklahoma City Thunder (68 - 14) | Utah Jazz (17 - 65) | 0.129 |  | 2022 | Milwaukee Bucks (58 - 24) | Detroit Pistons (17 - 65) | 0.091 |
+| 1996 | CHI (69 - 13) | VAN (14 - 68) | 0.161 |  | 1996 | CHI (69 - 13) | VAN (14 - 68) | 0.161 |
+| 1997 | CHI (62 - 20) | DEN (11 - 71) | 0.153 |  | 1997 | CHI (62 - 20) | DEN (11 - 71) | 0.153 |
+| 1998 | SAS (37 - 13) | VAN (8 - 42) | 0.128 |  | 2008 | CLE (66 - 16) | SAC (17 - 65) | 0.143 |
+| 1999 | LAL (67 - 15) | LAC (15 - 67) | 0.13 |  | 2007 | BOS (66 - 16) | MIA (15 - 67) | 0.141 |
+| 2000 | SAS (58 - 24) | CHI (15 - 67) | 0.132 |  | 2023 | BOS (64 - 18) | DET (14 - 68) | 0.137 |
+| 2001 | SAC (61 - 21) | GSW (21 - 61) | 0.111 |  | 2009 | CLE (61 - 21) | NJN (12 - 70) | 0.137 |
+| 2002 | SAS (60 - 22) | DEN (17 - 65) | 0.115 |  | 2019 | MIL (56 - 17) | GSW (15 - 50) | 0.134 |
+| 2003 | IND (61 - 21) | ORL (21 - 61) | 0.108 |  | 2013 | SAS (62 - 20) | MIL (15 - 67) | 0.134 |
+| 2004 | PHX (62 - 20) | ATL (13 - 69) | 0.124 |  | 2014 | GSW (67 - 15) | MIN (16 - 66) | 0.133 |
+| 2005 | DET (64 - 18) | POR (21 - 61) | 0.106 |  | 2010 | CHI (62 - 20) | MIN (17 - 65) | 0.132 |
+| 2006 | DAL (67 - 15) | MEM (22 - 60) | 0.104 |  | 2000 | SAS (58 - 24) | CHI (15 - 67) | 0.132 |
+| 2007 | BOS (66 - 16) | MIA (15 - 67) | 0.141 |  | 2012 | MIA (66 - 16) | ORL (20 - 62) | 0.13 |
+| 2008 | CLE (66 - 16) | SAC (17 - 65) | 0.143 |  | 1999 | LAL (67 - 15) | LAC (15 - 67) | 0.13 |
+| 2009 | CLE (61 - 21) | NJN (12 - 70) | 0.137 |  | 2024 | OKC (68 - 14) | UTA (17 - 65) | 0.129 |
+| 2010 | CHI (62 - 20) | MIN (17 - 65) | 0.132 |  | 1998 | SAS (37 - 13) | VAN (8 - 42) | 0.128 |
+| 2011 | CHI (50 - 16) | CHA (7 - 59) | 0.128 |  | 2011 | CHI (50 - 16) | CHA (7 - 59) | 0.128 |
+| 2012 | MIA (66 - 16) | ORL (20 - 62) | 0.13 |  | 2015 | GSW (73 - 9) | PHI (10 - 72) | 0.127 |
+| 2013 | SAS (62 - 20) | MIL (15 - 67) | 0.134 |  | 2017 | HOU (65 - 17) | PHX (21 - 61) | 0.126 |
+| 2014 | GSW (67 - 15) | MIN (16 - 66) | 0.133 |  | 2004 | PHX (62 - 20) | ATL (13 - 69) | 0.124 |
+| 2015 | GSW (73 - 9) | PHI (10 - 72) | 0.127 |  | 2018 | MIL (60 - 22) | NYK (17 - 65) | 0.12 |
+| 2016 | GSW (67 - 15) | BKN (20 - 62) | 0.107 |  | 2021 | PHX (64 - 18) | HOU (20 - 62) | 0.119 |
+| 2017 | HOU (65 - 17) | PHX (21 - 61) | 0.126 |  | 2020 | UTA (52 - 20) | HOU (17 - 55) | 0.116 |
+| 2018 | MIL (60 - 22) | NYK (17 - 65) | 0.12 |  | 2002 | SAS (60 - 22) | DEN (17 - 65) | 0.115 |
+| 2019 | MIL (56 - 17) | GSW (15 - 50) | 0.134 |  | 2001 | SAC (61 - 21) | GSW (21 - 61) | 0.111 |
+| 2020 | UTA (52 - 20) | HOU (17 - 55) | 0.116 |  | 2003 | IND (61 - 21) | ORL (21 - 61) | 0.108 |
+| 2021 | PHX (64 - 18) | HOU (20 - 62) | 0.119 |  | 2016 | GSW (67 - 15) | BKN (20 - 62) | 0.107 |
+| 2022 | MIL (58 - 24) | DET (17 - 65) | 0.091 |  | 2005 | DET (64 - 18) | POR (21 - 61) | 0.106 |
+| 2023 | BOS (64 - 18) | DET (14 - 68) | 0.137 |  | 2006 | DAL (67 - 15) | MEM (22 - 60) | 0.104 |
+| 2024 | OKC (68 - 14) | UTA (17 - 65) | 0.129 |  | 2022 | MIL (58 - 24) | DET (17 - 65) | 0.091 |
 
 Additionally, we can compare the closest and least close seasons in terms of standings in our data:
 
