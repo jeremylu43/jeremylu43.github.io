@@ -90,6 +90,10 @@ Removing the bubble shows a slightly stronger relationship between Gini coeffici
 
 For tension, there is a lack of a clear relationship. In fact, the 1996-97 season, which had less parity according to the Gini coefficient, actually surpasses the 2022-23 season in median daily tension.
 
+<img src="/images/NBA_Excitement/excitement_gini_plot.png" alt="boxplots of daily excitement by season, ordered by Gini coefficeint descending" size = "800"/>
+
+Here, we arrange the seasosns in increasing order of parity and further examine the relationship between daily median excitement and parity. There is no clear and straightforward increasing trend, but we can see that median daily excitement, as well as the upper quartiles and maximums tend to increase.
+
 ## Conclusion
 
 I theorized initially that more parity might improve median daily excitement and daily tensions, using the heuristic that as viewers, we tend to enjoy watching more evenly matched teams,
