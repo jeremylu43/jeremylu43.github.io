@@ -68,14 +68,14 @@ Using this, we have the Gini's for each season sorted:
 
 Additionally, we can compare the closest and least close seasons in terms of standings in our data:
 
-<img src="/images/NBA_Excitement/gini_win_distribution.png" alt="2022-23 season is closest with 0.091 Gini and 1996-97 season is least close with Gini 0.161" width="500"/>
+<img src="/images/NBA_Excitement/gini_win_distribution.png" alt="2022-23 season is closest with 0.091 Gini and 1996-97 season is least close with Gini 0.161" width="800"/>
 
 In the 2022-23 season, the team standings are extremely close, with only 6 teams eclipsing 50 wins, and 14 teams between 40 and 50 wins. The Giannis led Bucks placed first with a record of 58-24 while the Pistons finished last at 17-65.
 
 Meanwhile, the 1997-97 was the least close season, as Michael Jordan and his Bulls led the league with a record of 69-13. 3 teams had over 60 wins, and 7 had less than 30 wins (compared to only 3 in 2022-23). Adding to the gap in competitiveness, the Celtics and Grizzlies finished at 15-67 and 14-68, respectively.
 
 ## Parity and Excitement/Tension
-<img src="/images/NBA_Excitement/gini_regressions.png" alt="Gini regression with median daily exictement and median daily tension. Median daily excitement has a negative slope indicating less excitement when there is less parity, median daily tension has no relationship" width="500"/>
+<img src="/images/NBA_Excitement/gini_regressions.png" alt="Gini regression with median daily exictement and median daily tension. Median daily excitement has a negative slope indicating less excitement when there is less parity, median daily tension has no relationship" width="800"/>
 
 Plotting a regression of each season's Gini index with median daily excitement and tension, we can see a negative relationship between Gini and median daily excitement, meaning that
 excitement is lower in seasons where team standings are further separated. Under this model, we can expect that the difference in median daily excitement between the 2022-23 and the 1996-97 season to be approximately 1, although
@@ -83,7 +83,7 @@ the actual difference was almost 2.5. 2019 does stand out as an outlier, most li
 compete, with every game being meaningful for playoff hopes and seeding. As a result, daily median excitement was higher, and the standings were also skewed, which affects the Gini coefficient.
 
 Removing the bubble shows a slightly stronger relationship between Gini coefficient and median daily excitement:
-<img src="/images/NBA_Excitement/gini_regressions_no_bubble.png" alt="Gini regression with median daily exictement and median daily tension. Median daily excitement has a negative slope indicating less excitement when there is less parity, median daily tension has no relationship" width="500"/>
+<img src="/images/NBA_Excitement/gini_regressions_no_bubble.png" alt="Gini regression with median daily exictement and median daily tension. Median daily excitement has a negative slope indicating less excitement when there is less parity, median daily tension has no relationship" width="800"/>
 
 For tension, there is a lack of a clear relationship. 
 
