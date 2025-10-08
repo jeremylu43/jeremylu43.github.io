@@ -27,7 +27,8 @@ A Gini of 1 would mean that one person holds all the wealth(a basketball equival
 
 Gini coefficient can be calculated as: $$\dfrac{1}{2} \cdot \text{Relative Mean Difference} = \dfrac{1}{2} \cdot \dfrac{\text{Mean Difference}}{\text{Mean Win Percentage}}$$
 
-In our context, let $$w_t$$ be the win percentage for team $$t$$. We can calculate the Gini Coefficient as: $$\dfrac{1}{2} \cdot \dfrac{\Sigma_{t=1}^n |w_t-\overline{w}|}{\overline{w}}$$ where $$\overline{w}$$ represents the average win percentage and $$n$$ is the number of teams in that season.
+In our context, let $$w_t$$ be the win percentage for team $$t$$. We can calculate the Gini Coefficient as: 
+$$\dfrac{1}{2} \cdot \dfrac{\Sigma_{t=1}^n \textbar w_t-\overline{w} \textbar}{\overline{w}}$$ where $$\overline{w}$$ represents the average win percentage and $$n$$ is the number of teams in that season.
 
 Using this, we have the Gini's for each season sorted:
 
