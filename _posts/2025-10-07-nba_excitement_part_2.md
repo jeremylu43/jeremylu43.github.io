@@ -29,7 +29,9 @@ Gini coefficient can be calculated as: $$\dfrac{1}{2} \cdot \text{Relative Mean 
 
 In our context, let $$w_t$$ be the win percentage for team $$t$$. We can calculate the Gini Coefficient as: 
 
-$$\dfrac{1}{2} \cdot \dfrac{\sum_{t=1}^n \| w_t-\overline{w} \|}{\overline{w}}$$ where $$\overline{w}$$ represents the average win percentage and $$n$$ is the number of teams in that season.
+$$\dfrac{1}{2} \cdot \dfrac{\sum_{t=1}^n \| w_t-\overline{w} \|}{\overline{w}},$$
+
+where $$\overline{w}$$ represents the average win percentage and $$n$$ is the number of teams in that season.
 
 Using this, we have the Gini's for each season sorted:
 
@@ -85,7 +87,14 @@ compete, with every game being meaningful for playoff hopes and seeding. As a re
 Removing the bubble shows a slightly stronger relationship between Gini coefficient and median daily excitement:
 <img src="/images/NBA_Excitement/gini_regressions_no_bubble.png" alt="Gini regression with median daily exictement and median daily tension. Median daily excitement has a negative slope indicating less excitement when there is less parity, median daily tension has no relationship" width="800"/>
 
-For tension, there is a lack of a clear relationship. 
+For tension, there is a lack of a clear relationship. In fact, the 1996-97 season, which had less parity according to the Gini coefficient, actually surpasses the 2022-23 season in median daily tension.
 
 ## Conclusion
 
+I theorized initially that more parity might improve median daily excitement and daily tensions, using the heuristic that as viewers, we tend to enjoy watching more evenly matched teams,
+and enjoying the uncertainty of the outcome. By using the Gini coefficient as a measure for parity, we can see that as teams are further apart in standings, median daily excitement decreases,
+whereas the relationship between parity and tension is unclear (or rather, undetectable given our current data).
+
+While we did show a negative correlation between less balance and excitement, the quantitative difference is hard to intepret. The regression shows a difference of 1 (1.5 if you remove the outlier bubble season) in median daily excitement,
+but we are unable to claim that is a meaningful difference in our perceptions of how exciting the season is. Additionally, [previous discussed limitations](https://jeremylu43.github.io/nba_excitement_part_1/#conclusion) of our metrics still apply.
+In particular, even if the median daily excitement has decreased, our tendency to remember the more exciting games may alter our perceptions, minimizing the relationship with parity with the daily median excitement.
