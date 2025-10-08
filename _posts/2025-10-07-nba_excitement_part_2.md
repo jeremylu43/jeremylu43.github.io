@@ -28,7 +28,8 @@ A Gini of 1 would mean that one person holds all the wealth(a basketball equival
 Gini coefficient can be calculated as: $$\dfrac{1}{2} \cdot \text{Relative Mean Difference} = \dfrac{1}{2} \cdot \dfrac{\text{Mean Difference}}{\text{Mean Win Percentage}}$$
 
 In our context, let $$w_t$$ be the win percentage for team $$t$$. We can calculate the Gini Coefficient as: 
-$$\dfrac{1}{2} \cdot \dfrac{\Sigma_{t=1}^n \textbar w_t-\overline{w} \textbar}{\overline{w}}$$ where $$\overline{w}$$ represents the average win percentage and $$n$$ is the number of teams in that season.
+
+$$\dfrac{1}{2} \cdot \dfrac{\sum_{t=1}^n \| w_t-\overline{w} \|}{\overline{w}}$$ where $$\overline{w}$$ represents the average win percentage and $$n$$ is the number of teams in that season.
 
 Using this, we have the Gini's for each season sorted:
 
@@ -84,8 +85,7 @@ compete, with every game being meaningful for playoff hopes and seeding. As a re
 Removing the bubble shows a slightly stronger relationship between Gini coefficient and median daily excitement:
 <img src="/images/NBA_Excitement/gini_regressions_no_bubble.png" alt="Gini regression with median daily exictement and median daily tension. Median daily excitement has a negative slope indicating less excitement when there is less parity, median daily tension has no relationship" width="500"/>
 
-
-For tension, there is a lack of a clear relationship. However, there is no 
+For tension, there is a lack of a clear relationship. 
 
 ## Conclusion
 
