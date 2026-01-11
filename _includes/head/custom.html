@@ -9,28 +9,6 @@
 </script>
 
 
-<script>
-(function () {
-  const storedSkin = localStorage.getItem("mm-skin");
-
-  if (storedSkin) {
-    // User has explicitly chosen a theme
-    document.documentElement.setAttribute("data-theme", storedSkin);
-  } else {
-    // No choice yet → follow system preference
-    const prefersDark = window.matchMedia(
-      "(prefers-color-scheme: dark)"
-    ).matches;
-
-    document.documentElement.setAttribute(
-      "data-theme",
-      prefersDark ? "dark" : "default"
-    );
-  }
-})();
-</script>
-
-
 <!-- insert favicons. use https://realfavicongenerator.net/ -->
 
 <!-- end custom head snippets -->
