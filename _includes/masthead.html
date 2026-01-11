@@ -4,13 +4,6 @@
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
-		<button
-		  id="skin-toggle"
-		  class="btn btn--inverse"
-		  aria-label="Toggle dark mode"
-		>
-		  Dark Mode 🌙
-		</button>
         {% unless logo_path == empty %}
           <a class="site-logo" href="{{ '/' | relative_url }}"><img src="{{ logo_path | relative_url }}" alt=""></a>
         {% endunless %}
