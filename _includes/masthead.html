@@ -3,6 +3,7 @@
 <div class="masthead">
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
+
       <nav id="site-nav" class="greedy-nav">
         {% unless logo_path == empty %}
           <a class="site-logo" href="{{ '/' | relative_url }}"><img src="{{ logo_path | relative_url }}" alt=""></a>
@@ -30,6 +31,9 @@
           <span class="visually-hidden">{{ site.data.ui-text[site.locale].menu_label | default: "Toggle menu" }}</span>
           <div class="navicon"></div>
         </button>
+		<button id="dark-mode-toggle" aria-label="Toggle dark mode">
+			🌙
+		</button>
         <ul class="hidden-links hidden"></ul>
       </nav>
     </div>
